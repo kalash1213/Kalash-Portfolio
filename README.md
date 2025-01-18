@@ -1,12 +1,61 @@
-<<<<<<< HEAD
-# React + Vite
+# Vasu Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Vasu Portfolio is a simple personal portfolio built using React, Tailwind CSS, and Framer Motion for smooth animations. It showcases my skills, projects, and experience in web development.
 
-Currently, two official plugins are available:
+## Features
+- **Responsive Design**: The portfolio is fully responsive and looks great on all screen sizes.
+- **Smooth Animations**: Uses **Framer Motion** for animations to create a seamless user experience.
+- **Modern UI**: Built with **Tailwind CSS** for easy styling and a clean user interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-=======
-# Vasu-Portfolio
->>>>>>> beb5d893c0d68126773900f5523438363aa66e53
+## Technologies Used
+- **React**: For building the user interface and managing application state.
+- **Tailwind CSS**: For utility-first CSS styling.
+- **Framer Motion**: For animations and transitions.
+- **GitHub Pages**: For deployment (if you're hosting it on GitHub Pages).
+
+## Setup
+
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/vasu5x2/Vasu-Portfolio.git
+Navigate into the project directory:
+
+bash
+Copy
+Edit
+cd Vasu-Portfolio
+Install the required dependencies:
+
+bash
+Copy
+Edit
+npm install
+Start the development server:
+
+bash
+Copy
+Edit
+npm start
+Open the project in your browser by visiting:
+
+arduino
+Copy
+Edit
+http://localhost:3000
+Deployment
+You can deploy this project on platforms like GitHub Pages, Netlify, or Vercel. Follow the respective platform documentation for deployment instructions.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+arduino
+Copy
+Edit
+
+You can copy and paste this into your `README.md` file. This basic README includes sections for project features, technology used, setup instructions, and deployment options.
+
+
+
+
+
+
