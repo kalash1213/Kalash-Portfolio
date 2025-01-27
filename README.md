@@ -1,7 +1,7 @@
 <<<<<<< HEAD
-# Vasu Portfolio
+# Kalash Portfolio
 
-Vasu Portfolio is a simple personal portfolio built using React, Tailwind CSS, and Framer Motion for smooth animations. It showcases my skills, projects, and experience in web development.
+Kalash Portfolio is a simple personal portfolio built using React, Tailwind CSS, and Framer Motion for smooth animations. It showcases my skills, projects, and experience in web development.
 
 ## Features
 - **Responsive Design**: The portfolio is fully responsive and looks great on all screen sizes.
@@ -18,13 +18,13 @@ Vasu Portfolio is a simple personal portfolio built using React, Tailwind CSS, a
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/vasu5x2/Vasu-Portfolio.git
+   git clone https://github.com/kalash1213/Kalash-Portfolio
 Navigate into the project directory:
 
 bash
 Copy
 Edit
-cd Vasu-Portfolio
+cd Kalash-Portfolio
 Install the required dependencies:
 
 bash
@@ -42,7 +42,7 @@ Open the project in your browser by visiting:
 arduino
 Copy
 Edit
-http://localhost:3000
+http://localhost:5174
 Deployment
 You can deploy this project on platforms like GitHub Pages, Netlify, or Vercel. Follow the respective platform documentation for deployment instructions.
 
@@ -60,6 +60,4 @@ You can copy and paste this into your `README.md` file. This basic README includ
 
 
 
-=======
-# Kalash-Portfolio
->>>>>>> 3037c4b990232b8e53aa74fda5cbe3e52c348c12
+
