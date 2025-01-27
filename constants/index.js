@@ -11,45 +11,48 @@ export const HERO_CONTENT = ` I am a passionate software developer with expertis
 export const EXPERIENCES = [
   {
     year: "2023 - 2024",
-    role: "Full-Stack  Developer / Internship",
+    role: "Associate Solution Leader Trainee/ Frontend Developer",
     company: "Brane Enterprises",
-    description: `Contributing in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with QA Team to define project requirements and timelines.`,
+    description: `Contributing in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with QA Team to define project requirements and timelines and Designed an Expense Management Solution to automate financial workflows, cutting manual data entry  and boosting accuracy. Added features like OCR for receipt data extraction with Tesseract OCR and real-time currency conversion using Forex-Python. `,
     technologies: ["Javascript", "React.js", "Node.js", "MongoDB","Material-UI", "Express.js"],
   }
 ];
 
 export const PROJECTS = [
   {
-    title: "PEHRAVAA[E-Commerce Website]",
+    title: "Gemini-Clone",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["React", "Node.js", "MongoDB", "Express.js", "TailwindCss", "JWT"],
-    link: "https://github.com/vasu5x2/Pehravaa", 
+      "Gemini Clone is a React-based web app that replicates the Gemini AI interface. The project highlights front-end development with React, JavaScript, and CSS, real-time chat functionality, responsive design, efficient state management using Context API, and optimized load times with flexible routing and lazy loading.",
+    technologies: ["React", "JavaScript", "TailwindCss", "Context API", "React Hooks", "Google API",  ]
+
+ ,
+    link: "https://github.com/kalash1213/Gemini-Clone", link: "https://gemini-clone-coral-beta.vercel.app/", 
   },
   {
-    title: "Gemini-Clone",
+    title: "Convo-Link",
     image: project2,
     description:
-      "Gemini Clone is a React-based web app that replicates the Gemini AI interface. This project showcases front-end development using React, JavaScript, and CSS, featuring a dark theme, real-time chat functionality, and responsive design.",
-    technologies: ["React", "TailwindCss", "Google API"],
-    link: "https://github.com/vasu5x2/Gemini-Clone", 
+      "Built a real-time chat app using Express.js, Socket.IO, and Node.js, improving message delivery, adding audio notifications for incoming messages, and enhancing user engagement with streamlined tracking for a better chat experience.",
+    technologies: ["Express.js", "Socket.IO", "Node.js"],
+    link: "https://github.com/kalash1213/ConvoLink",link:"https://chat-app-one-blond.vercel.app/" ,
   },
+  
   {
-    title: "RBAC Admin",
+    title: "Weather-Channel",
     image: project3,
     description:
-      "RBAC Admin is a frontend-only application built to manage user roles and permissions within a web application using React and modern frontend technologies. This project demonstrates a role-based access control (RBAC) system where users are categorized into different roles like Admin, Editor, and Viewer, and their respective permissions are visualized through charts.",
-    technologies: ["React", "MATERIAL-UI", "React-Charts"],
-    link: "https://github.com/vasu5x2/RBAC-Admin", 
+      "Developed a dynamic weather application that allows users to search for current weather conditions in different cities. The app displays temperature, humidity, wind speed, and an appropriate weather icon based on the forecast.",
+    technologies: ["HTML", "CSS", "Javascript"],
+    link: "https://github.com/kalash1213/Weather-Channel", link:"https://weather-channel-rosy.vercel.app/"
   },
   {
-    title: "Image Asserts",
+    title: "TODO-List",
     image: project4,
     description:
-      "This is an image assert management web application where users can upload, rotate, flip, and crop images. The application provides an interactive interface for managing images, allowing users to perform various transformations on their images.",
-    technologies: ["React", "MATERIAL-UI", "react-easy-crop"],
-    link: "https://github.com/vasu5x2/Image-Assets", 
+      " This is a To-Do List web application that allows users to add, mark, and delete tasks. It also stores tasks in localStorage to maintain them between page reloads.",
+    technologies: ["HTML", "CSS", "Javascript","Local Storage"],
+    link: "https://github.com/kalash1213/TODO-List", link:"https://todo-list-tau-smoky.vercel.app/"
   },
 ];
 

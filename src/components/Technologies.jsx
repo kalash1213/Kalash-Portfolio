@@ -1,5 +1,5 @@
 import React from "react";
-import { BiLogoPostgresql } from "react-icons/bi";
+import { BiLogoCPlusPlus, BiLogoPostgresql } from "react-icons/bi";
 import { FaNodeJs } from "react-icons/fa";
 import { RiReactjsLine } from "react-icons/ri";
 import { SiExpress, SiMongodb } from "react-icons/si";
@@ -76,6 +76,13 @@ const Technologies = () => {
         variants={iconVariants(4)}
         className="p-4">
           <BiLogoPostgresql className="text-7xl text-sky-700" />
+        </motion.div>
+        <motion.div 
+        initial="initial"
+        animate="animate"
+        variants={iconVariants(4)}
+        className="p-4">
+          <BiLogoCPlusPlus className="text-7xl text-sky-700" />
         </motion.div>
       </motion.div>
     </div>

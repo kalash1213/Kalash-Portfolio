@@ -46,16 +46,25 @@ const Projects = () => {
                   {tech}
                 </span>
               ))}
-              <div className="mt-4">
-                <a
-                  href={project.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-500 underline"
-                >
-                  View on GitHub
-                </a>
-              </div>
+              <div className="mt-4 flex space-x-4">
+  <a
+    href={project.link}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-blue-500 underline"
+  >
+    View on GitHub
+  </a>
+  <a
+    href={project.link}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-white-500 underline"
+  >
+    Live Demo
+  </a>
+</div>
+
             </motion.div>
           </div>
         ))}
