@@ -5,5 +5,7 @@
 
 :root {
     font-family: "Inter", sans-serif;
-    background: #000000;
+    background: linear-gradient(to right, rgb(95, 39, 148), rgb(10, 10, 61), rgb(122, 13, 122));
+
+    
 }

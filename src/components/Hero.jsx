@@ -1,5 +1,5 @@
 import React from "react";
-import profilePic from "../assets/1.png";
+import profilePic from "../assets/1.jpg";
 import { HERO_CONTENT } from "../../constants";
 import { motion } from "framer-motion";
 
@@ -27,7 +27,8 @@ const Hero = () => {
           <div className="flex justify-center lg:p-8">
             <motion.img
               src={profilePic}
-              alt="Vasu Sharma"
+              alt="Kalash Chikara"
+              
               className="border border-stone-900 rounded-3xl"
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
@@ -46,13 +47,13 @@ const Hero = () => {
               variants={childVariants}
               className="pb-2 text-4xl tracking-tighter lg:text-8xl"
             >
-              Vasu Sharma
+              Kalash Chikara
             </motion.h2>
             <motion.span
               variants={childVariants}
               className="bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tighter text-transparent"
             >
-              Full Stack Developer
+             Software Developer
             </motion.span>
             <motion.p 
             variants={childVariants}
@@ -61,7 +62,7 @@ const Hero = () => {
             </motion.p>
             <motion.a
             variants={childVariants}
-              href="/vasu_sharma.pdf"
+              href="/KalashChikara__Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               download

@@ -1,10 +1,12 @@
-import project1 from '../src/assets/projects/project-1.webp';
-import project2 from '../src/assets/projects/project-2.webp';
-import project3 from '../src/assets/projects/project-3.webp';
-import project4 from '../src/assets/projects/project-4.webp';
+import project1 from '../src/assets/projects/project-5.webp.png';
+import project2 from '../src/assets/projects/project-6.webp.png';
+import project3 from '../src/assets/projects/project-7.webp.png';
+import project4 from '../src/assets/projects/project-8.webp.png';
 
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 1 year of hands-on experience, I have honed my skills in front-end technologies like React ,JavaScript, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = ` I am a passionate software developer with expertise in crafting robust and scalable web applications. With hands-on experience in front-end technologies like React.js, JavaScript, and Material-UI, as well as back-end technologies like Node.js, Express.js, and databases such as MongoDB and MySQL, I have developed advanced features, optimized database performance, and integrated seamless RESTful APIs. My goal is to leverage my expertise to build innovative solutions that enhance business efficiency and deliver exceptional user experiences.
+
+`;
 
 export const EXPERIENCES = [
   {
@@ -52,7 +54,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "#542 Street no 8 Adarsh Nagar,Dera Bassi,Punjab-140507 ",
-  phoneNo: " +91 9877197034",
-  email: "vasu40002@gmail.com",
+  address: "D-23,Yamuna Vihar,Dwarikesh Sugar Industries LTD,Najibabad,Bijnor,246732 ",
+  phoneNo: " +916397310248",
+  email: "kalashchikara1215@gmail.com",
 };
