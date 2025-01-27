@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Vasu Portfolio
 
 Vasu Portfolio is a simple personal portfolio built using React, Tailwind CSS, and Framer Motion for smooth animations. It showcases my skills, projects, and experience in web development.
@@ -59,3 +60,6 @@ You can copy and paste this into your `README.md` file. This basic README includ
 
 
 
+=======
+# Kalash-Portfolio
+>>>>>>> 3037c4b990232b8e53aa74fda5cbe3e52c348c12
