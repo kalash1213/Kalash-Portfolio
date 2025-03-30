@@ -1,5 +1,5 @@
 import React from "react";
-import profilePic from "../assets/kalash.jpeg";
+import profilePic from "../assets/kalash.png";
 import { HERO_CONTENT } from "../../constants";
 import { motion } from "framer-motion";
 
@@ -24,12 +24,12 @@ const Hero = () => {
     <div className="pb-4 lg:mb-36">
       <div className="flex flex-wrap lg:flex-row-reverse">
         <div className="w-full lg:w-1/2">
-          <div className="flex justify-center lg:p-8">
+          <div className="flex justify-center lg:p-8 ">
             <motion.img
               src={profilePic}
               alt="Kalash Chikara"
               
-              className="border border-stone-900 rounded-3xl"
+              className=" object-cover"
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.5 }}
