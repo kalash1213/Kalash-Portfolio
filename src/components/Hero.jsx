@@ -19,23 +19,28 @@ const childVariants = {
   hidden: { opacity: 0, x: -100 },
   visible: { opacity: 1, x: 0, transition: { duration: 0.5 } },
 };
+
 const Hero = () => {
   return (
     <div className="pb-4 lg:mb-36">
       <div className="flex flex-wrap lg:flex-row-reverse">
+        {/* Image Section */}
         <div className="w-full lg:w-1/2">
-          <div className="flex justify-center lg:p-8 ">
+          <div className="flex justify-center items-center relative lg:p-8">
+            {/* Glow behind image */}
+            <div className="absolute w-[300px] h-[400px] lg:w-[350px] lg:h-[450px] bg-gradient-to-r from-purple-500 to-pink-500 blur-3xl rounded-xl opacity-50 z-0"></div>
             <motion.img
               src={profilePic}
               alt="Kalash Chikara"
-              
-              className=" object-cover"
+              className="relative z-10 object-cover shadow-2xl rounded-xl"
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.5 }}
-            ></motion.img>
+            />
           </div>
         </div>
+
+        {/* Text Section */}
         <div className="w-full lg:w-1/2">
           <motion.div
             initial="hidden"
@@ -53,15 +58,16 @@ const Hero = () => {
               variants={childVariants}
               className="bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tighter text-transparent"
             >
-             Software Developer
+              Software Developer
             </motion.span>
-            <motion.p 
-            variants={childVariants}
-            className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter">
+            <motion.p
+              variants={childVariants}
+              className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter"
+            >
               {HERO_CONTENT}
             </motion.p>
             <motion.a
-            variants={childVariants}
+              variants={childVariants}
               href="/KalashChikara__Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
